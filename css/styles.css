@@ -11732,3 +11732,43 @@ html {
     left: -2vw;
   }
 }
+/* looks css  */
+
+/* Custom CSS to reduce padding and margin on small screens */
+@media (max-width: 1024px) {
+  /* Reduce padding for the container */
+  .container {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+
+  /* Reduce padding for elements with .px-5 class */
+  .px-5 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+
+  /* Adjust header padding */
+  header.py-5 {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+  }
+
+  /* Adjust navigation padding */
+  .navbar .container {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+
+  /* Adjust button padding */
+  .btn-lg {
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+  }
+
+  /* Adjust profile image size */
+  .profile-img {
+      max-width: 80%;
+      height: auto;
+  }
+}
